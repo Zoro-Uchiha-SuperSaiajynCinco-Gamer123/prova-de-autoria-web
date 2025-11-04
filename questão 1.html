@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Provinha</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px 100px ;
+            background-color: black;
+            height: 400px;
+            width: 400px;
+            padding: 10px;
+        }
+        .qua1 {
+            background-color: white;
+            height: 40px;
+            width: 40px; 
+            grid-row: 1 /1;
+            grid-column: 1 / 1;
+            justify-self: center;
+        }
+
+        .qua2 {
+            background-color: white;
+            height: 40px;
+            width: 40px; 
+            grid-row: 1 /1;
+            grid-column: 4 / 4;
+            justify-self: center;
+        }
+
+        .qua3 {
+            background-color: white;
+            height: 40px;
+            width: 40px;
+            grid-row: 4 / 4;
+            grid-column: 1 / 1;
+            justify-self: center;
+        }
+
+        .qua4 {
+            background-color: white;
+            height: 40px;
+            width: 40px;
+            grid-row: 4 / 4;
+            grid-column: 4 / 4;
+            justify-self: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="qua1"></div>
+        <div class="qua2"></div>
+        <div class="qua3"></div>
+        <div class="qua4"></div>
+    </div>
+</body>
+</html>
